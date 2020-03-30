@@ -1,0 +1,36 @@
+{
+  "name": "pkg-page-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start-client": "ts-node src/client.ts",
+    "start-server": "ts-node src/server.ts",
+    "build-client": "tsc && pkg dist/client.js -t node10.15.3-win-x64 --options max_old_space_size=4096",
+    "build-server": "tsc && pkg . -t node10.15.3-win-x64 --options max_old_space_size=4096",
+    "build-win": "tsc && pkg . -t node10.15.3-win-x64 --options max_old_space_size=4096",
+    "build-mac": "tsc && pkg . -t node12.13.1-mac-x64 --options max_old_space_size=4096",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "dist/server.js",
+  "pkg": {
+    "assets": "page/**/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "jj-crypt": "^1.0.4",
+    "regedit": "^3.0.3",
+    "uuid": "^7.0.1",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "pkg": "^4.4.3",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  }
+}

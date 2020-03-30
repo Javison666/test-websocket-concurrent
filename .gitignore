@@ -1,0 +1,6 @@
+pkg-node/dist
+pkg-node/log
+pkg-node/node_modules
+pkg-page/build
+pkg-page/log
+pkg-page/node_modules

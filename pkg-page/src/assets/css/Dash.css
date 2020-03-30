@@ -1,0 +1,45 @@
+.dash-page{
+    width: 90%;
+    margin: auto;
+    padding-top:20px;
+}
+.dash-body{
+    text-align:center;
+}
+.dash-body .ant-col>div{
+    background-color: #096dd9;
+    padding-top:8px;
+    padding-bottom:12px;
+}
+.dash-body .ant-statistic-title{
+    color:rgb(209, 209, 209);
+}
+.dash-body .ant-statistic-content{
+    color:#fff;
+    margin-bottom:10px;
+}
+.dash-body .ant-progress-text{
+    color: #fff;
+}
+.dash-log{
+    /* position: absolute;
+    top:340px;
+    left:5%;
+    right: 5%;
+    bottom: 20px; */
+    background: #000;
+    padding:8px 12px;
+    overflow-y:auto;
+    color:#52c41a;
+}
+.dash-statis h4{
+    color:#52c41a;
+}
+.dash-statis .type-name{
+    display: inline-block;
+    width:  200px;
+    text-align: right;
+}
+h2{
+    color:#52c41a;
+}
