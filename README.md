@@ -4,7 +4,7 @@
 
 配置文件 pkg-node/conf.json
 
-websocket分布式并发测试，单客户端win系统下，并发可达6万
+websocket集群并发测试，单客户端win系统下，并发可达6万
 
 server.exe同级目录放置文件conf.json
 ```
