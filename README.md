@@ -1,4 +1,4 @@
-# websocket分布式并发测试
+# websocket集群并发测试
 
 程序目录 pkg-node/server.exe pkg-node/client.exe
 
